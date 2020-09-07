@@ -1,0 +1,43 @@
+.items,
+.itemsLunch,
+.itemsDinner,
+.itemsDessert {
+    position: relative;
+    width:200px;
+    margin-left:20px;
+    height:400px;
+}
+
+
+img{
+    width:180px;
+    
+}
+
+figcaption>i{
+    float:left;
+    margin-right:5px;
+}
+
+figcaption>p{
+    line-height: 30px;
+}
+figure{
+    position: absolute;
+    padding:10px 10px;
+    word-wrap: break-word;
+    background-color: #fff;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.87);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.rounded{
+    border-radius: 4px !important;
+}
+
+.items,
+.itemsLunch,
+.itemsDinner,
+.itemsDessert{
+    top: 80px;
+}
